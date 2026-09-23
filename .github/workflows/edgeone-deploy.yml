@@ -11,7 +11,7 @@ on:
       area:
         description: '部署区域：overseas = 全球可用区（不含中国大陆），global = 全球可用区'
         required: false
-        default: 'global'
+        default: 'overseas'
         type: choice
         options:
           - overseas
