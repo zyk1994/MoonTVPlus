@@ -6,12 +6,12 @@ on:
       project_name:
         description: 'EdgeOne Pages 项目名'
         required: false
-        default: 'moontvplus'
+        default: 'YKTV'
         type: string
       area:
         description: '部署区域：overseas = 全球可用区（不含中国大陆），global = 全球可用区'
         required: false
-        default: 'overseas'
+        default: 'global'
         type: choice
         options:
           - overseas
